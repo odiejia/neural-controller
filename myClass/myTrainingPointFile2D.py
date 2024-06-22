@@ -22,10 +22,8 @@ class TrainingPoints_MCMC():
 
         self.Num_training_LHS = axis_par["Num_training_LHS"]     
 		
-
         self.GenerateTrainingPoints_LHS()
         
-    
     def GenerateTrainingPoints_LHS(self):
 		
         rng_mat = lhs(2,self.Num_training_LHS)        
