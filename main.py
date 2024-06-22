@@ -38,7 +38,6 @@ c_f_pred=myControl.predict(
     dataSet.Predictdata.X2_pred_2d_mat2arr],1)
     )
 
-
 control_1_f_pred = tf.reshape(c_f_pred[:,0],dataSet.Predictdata.X1_pred_2d_mat.shape)
 
 control_2_f_pred = tf.reshape(c_f_pred[:,3],dataSet.Predictdata.X1_pred_2d_mat.shape)
@@ -67,7 +66,3 @@ scio.savemat(saveHistory,{'loss':history["loss"],
 
 tf.saved_model.save(myControl, "savedmodel/myControl")
 tf.saved_model.save(myMLModel.myPINNmodel, "savedmodel/myMLModel")
-
-
-
-
