@@ -1,14 +1,10 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Sep 27 15:24:24 2020
 
-@author: WantaoJia
-"""
 import numpy as np
 import tensorflow as tf
 
 class myPINN_manual(tf.keras.Model): 
-    #由四个边界构成的loss，采用dataSet传递数据，分别计算每个边的loss，手动训练
+    
     def __init__(self,dataSet,parameters,myPDE,myControl):
         super().__init__(parameters)
 ###############################################################################
