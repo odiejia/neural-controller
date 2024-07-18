@@ -1,25 +1,18 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Oct 24 12:18:27 2020
 
-@author: WantaoJia
-"""
 import numpy as np
 import tensorflow as tf
 
 axis_par={
-    #坐标信息
+    
     "x1_lb":0.4,"x1_ub":0.8,
     "x2_lb": 0.8,"x2_ub":1.2,
-    #初始条件
-
-    #物理信息
+    
     "x1_f_step":0.01,
     "x2_f_step":0.01,
 
     "Num_training_LHS": 10000,
     
-    #预测信息
     "x1_pred_lb":0.4,"x1_pred_ub":0.8,
     "x2_pred_lb":0.8,"x2_pred_ub":1.2,
     "x1_pred_step":0.01,
@@ -28,7 +21,6 @@ axis_par={
     }
 
 system_par={
-    #坐标信息
     "K1": 0.5,
     "K2": 0.3,
     "K3": 0.7,
