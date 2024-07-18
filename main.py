@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Sep 27 15:24:24 2020
- 
-@author: WantaoJia
-"""
+
 
 import tensorflow as tf
 import scipy.io as scio
