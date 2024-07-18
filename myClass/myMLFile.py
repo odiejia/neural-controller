@@ -3,7 +3,7 @@
 import tensorflow as tf
 from myClass.myPINNFile import myPINN_manual
 
-class myML_manual(): # 手动训练，但是数据传入使用dataSet传递
+class myML_manual(): 
     def __init__(self,dataSet,parameters,myPDE,myControl):
 #######################################################################
         self.dataSet = dataSet
