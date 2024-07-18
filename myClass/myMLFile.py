@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Oct 24 12:15:32 2020
-
-@author: WantaoJia
-"""
 
 import tensorflow as tf
 from myClass.myPINNFile import myPINN_manual
